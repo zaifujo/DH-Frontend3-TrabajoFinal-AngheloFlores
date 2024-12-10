@@ -1,0 +1,91 @@
+.ContactForm {
+	padding: 0px 50px;
+	flex: 1;
+	display: flex;
+  flex-direction: column;
+}
+
+.ContactForm div {
+	margin-bottom: 20px;
+}
+
+.ContactForm label {
+	display: block;
+	font-size: 1rem;
+	font-weight: bold;
+	margin-bottom: 8px;
+	color: #fff;
+	text-align: left;
+	text-shadow: 2px 2px 4px #EDB00F;
+}
+
+.ContactForm input {
+	width: 100%;
+	padding: 12px;
+	border-radius: 5px;
+	border: 1px solid #f7c82e;
+	background-color: #333;
+	color: #fff;
+	font-size: 1rem;
+	transition: border-color 0.3s ease, background-color 0.3s ease;
+	box-sizing: border-box;
+	filter: drop-shadow(0 0 3px rgba(255, 51, 0, 0.8));
+}
+
+.ContactForm input:focus {
+	border-color: #f7c82e;
+	background-color: #444;
+}
+
+.ContactForm select, textarea {
+	width: 100%;
+	padding: 12px;
+	border-radius: 5px;
+	border: 1px solid #f7c82e;
+	background-color: #333;
+	color: #fff;
+	font-size: 1rem;
+	transition: border-color 0.3s ease, background-color 0.3s ease;
+	box-sizing: border-box;
+	filter: drop-shadow(0 0 3px rgba(255, 51, 0, 0.8));
+}
+
+.ContactForm select {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.ContactForm select:focus, textarea:focus {
+	border-color: #f7a72e;
+	background-color: #444;
+}
+
+.ContactForm textarea {
+	resize: vertical;
+}
+
+.ContactForm button {
+	background-color: #3d91d6de;
+	color: #fff;
+	font-size: 1rem;
+	font-weight: bold;
+	padding: 12px 30px;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+	transition: background-color 0.3s ease, transform 0.2s ease;
+	margin-bottom: auto;
+	margin-top: 10px;
+	width: fit-content;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.ContactForm button:hover {
+	background-color: #EDB00F;
+	transform: scale(1.05);
+}
+
+.ContactForm button:active {
+	transform: scale(1);
+}

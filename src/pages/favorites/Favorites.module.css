@@ -1,0 +1,30 @@
+/* Estilos para el contenedor principal */
+.favorites {
+	padding: 30px 50px;
+	background-color: #1f1f1f;
+	color: #fa96c0;
+	text-align: center;
+}
+
+/* Título */
+.favorites h1 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 2.5rem;
+	font-weight: bold;
+	color: white;
+	text-shadow: 2px 2px 4px #EDB00F;
+	margin-bottom: 40px;
+	margin-top: 10px;
+}
+
+.favorites h3 {
+	margin: 0px 0px 50px 0px;
+}
+
+/* Contenedor de tarjetas */
+.container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+	gap: 30px;
+	margin-top: 30px;
+}

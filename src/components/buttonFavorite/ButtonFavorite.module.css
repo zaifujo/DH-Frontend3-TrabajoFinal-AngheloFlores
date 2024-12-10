@@ -1,0 +1,68 @@
+/* Estilo general del botón */
+.favoritesButton {
+	display: inline-block;
+	margin: 5px;
+	padding: 10px 20px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.7rem;
+	font-weight: bold;
+	color: white;
+	background-color: #3d91d6de;
+	border: 2px solid #1f2b64;
+	border-radius: 20px;
+	cursor: pointer;
+	text-transform: uppercase;
+	transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+/* Hover y focus */
+.favoritesButton:hover {
+	background-color: #EDB00F;
+	color: white;
+	/* transform: translateY(-3px); */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.favoritesButton:active {
+	transform: translateY(0);
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo general del botón */
+.favoritesButtonRemove {
+	display: inline-block;
+	margin: 5px;
+	padding: 10px 20px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.7rem;
+	font-weight: bold;
+	color: #ffffff;
+	border: 2px solid #f7a72e;
+	border-radius: 20px;
+	cursor: pointer;
+	text-transform: uppercase;
+	transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+/* Hover y focus */
+.favoritesButtonRemove:hover {
+	background-color: #f7a72e;
+	color: #1f1f1f;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.favoritesButtonRemove:active {
+	transform: translateY(0);
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Botón para eliminar */
+.favoritesButtonRemove {
+	background-color: #be261b;
+	border-color: #681b1b;
+}
+
+.favoritesButtonRemove:hover {
+	background-color: #701313;
+	color: #ffffff;
+}

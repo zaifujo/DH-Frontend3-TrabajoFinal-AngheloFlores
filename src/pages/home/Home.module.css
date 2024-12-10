@@ -1,0 +1,54 @@
+/* Estilos para el contenedor principal */
+.characters {
+	padding: 30px 50px;
+	background-color: #1f1f1f;
+	color: #EDB00F;
+	text-align: center;
+}
+
+/* Título */
+.characters h1 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 2.5rem;
+	font-weight: bold;
+	color: white;
+	text-shadow: 2px 2px 4px #EDB00F;
+	margin-bottom: 40px;
+	margin-top: 10px;
+}
+
+/* Contenedor de tarjetas */
+.container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+	gap: 30px;
+	margin-top: 30px;
+}
+
+/* Tarjetas individuales */
+.cardCharacter {
+	background-color: #292929;
+	border: 2px solid #EDB00F;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	overflow: hidden;
+}
+
+.cardCharacter:hover {
+	transform: translateY(-10px);
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+/* Textos dentro de la tarjeta */
+.cardCharacter h2 {
+	color: #0073e6;
+	font-size: 1.5rem;
+	margin: 10px 0;
+}
+
+.cardCharacter p {
+	color: #f7f7f7;
+	font-size: 1rem;
+	padding: 0 10px;
+}

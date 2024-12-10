@@ -1,0 +1,62 @@
+/* Contenedor principal de la paginación */
+.paginationContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  padding: 50px 0 30px;
+}
+
+/* Estilo para los botones de paginación */
+.paginationButton {
+  background-color: #EDB00F;
+  color: #1f1f1f;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.paginationButton:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.paginationButton:hover:not(:disabled) {
+  background-color: #EDB00F;
+  transform: scale(1.1);
+}
+
+/* Contenedor y estilo del número de página activo */
+.paginationActive {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: white;
+  text-shadow: 1px 1px 3px #EDB00F;
+}
+
+.paginationActive {
+  border: 1px solid #EDB00F;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Diseño responsive */
+@media (max-width: 768px) {
+  .paginationButton {
+    padding: 8px 15px;
+  }
+
+  .paginationActive {
+    font-size: 1rem;
+  }
+}

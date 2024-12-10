@@ -1,0 +1,40 @@
+.ContactMain {
+	background-color: #1f1f1f;
+	color: #EDB00F;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.ContactMain section {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 0;
+	background-color: #292929;
+	color: #EDB00F;
+	padding: 0px 0px;
+	max-width: 100%;
+	margin: 0 auto;
+	border-radius: 8px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+	margin: 25px 10px;
+	text-align: center;
+}
+
+.ContactMain img {
+	height: auto;
+	width: 320px;
+	border-radius: 0% 8px 8px 0%;
+}
+
+.ContactMain h1 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 2.5rem;
+	font-weight: bold;
+	color: white;
+	text-shadow: 2px 2px 4px #EDB00F;
+	margin: auto 0px 30px 0px;
+	padding: 0 50px;
+	text-align: center;
+}
